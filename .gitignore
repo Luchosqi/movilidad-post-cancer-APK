@@ -1,0 +1,25 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+
+# Entornos y dependencias
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno / datos sensibles
+.env
+.env.local
+*.local
+
+# Datos de pacientes (no versionar información de salud)
+data/
+*.sqlite
+*.db
