@@ -52,12 +52,7 @@ el mismo orden.
 
 ## Convención de trabajo
 
-- La rama `main` se mantiene como rama estable y protegida.
-- Una rama por funcionalidad, por ejemplo `feature/protocolo-evaluacion` o
-  `feature/registro-visualizacion`.
-- Los mensajes de commit siguen [Conventional Commits](https://www.conventionalcommits.org/),
-  por ejemplo `feat: agregar formulario de registro inicial` o
-  `fix: corregir cálculo de ángulo de hombro`.
+Ambos repositorios siguen el [mismo GitFlow y la convención de commits atómicos](CONTRIBUTING.md): `main` contiene entregas estables, `develop` integra el siguiente avance y cada tarea se desarrolla en `feature/*`. Las ramas `release/*` y `hotfix/*` se usan al preparar entregas o corregirlas. Los commits siguen Conventional Commits; la revisión por otro integrante precede a la integración, sin exigir un PR.
 
 ## Contexto
 
