@@ -1,8 +1,6 @@
 # Movilidad Post-Cáncer
 
-Sistema para evaluar el estado inicial de movilidad de pacientes sobrevivientes de
-cáncer, identificando limitaciones en el rango de movimiento mediante ejercicios
-guiados.
+App Android **para pacientes** sobrevivientes de cáncer. El profesional encargado asigna ejercicios desde la web; el paciente los realiza siguiendo la guía de la app. La cámara del teléfono detecta sus movimientos durante la ejecución y la app registra mediciones de cada sesión para que el profesional pueda revisar su evolución.
 
 ## Problemática
 
@@ -12,34 +10,26 @@ otras articulaciones. Muchas veces estas limitaciones no se detectan ni se cuant
 de forma sistemática, lo que dificulta un seguimiento oportuno de la rehabilitación del
 paciente.
 
-Este proyecto busca ofrecer una evaluación objetiva y accesible del rango de movimiento
-que permita detectar posibles limitaciones y hacer seguimiento de su evolución. Es una
-herramienta de **apoyo**, no de diagnóstico clínico.
+Este proyecto busca apoyar la realización y medición de ejercicios de movilidad asignados por el profesional, para que pueda seguir la evolución de cada paciente. Es una herramienta de **apoyo**, no de diagnóstico clínico.
 
 ## Objetivo general
 
-Desarrollar un sistema que permita evaluar el estado inicial de movilidad de pacientes
-sobrevivientes de cáncer, identificando limitaciones en el rango de movimiento mediante
-ejercicios guiados.
+Desarrollar un sistema en el que el profesional encargado asigne ejercicios de movilidad, el paciente los realice con guía y detección de movimientos por la cámara del teléfono, y el profesional consulte los resultados y la evolución en un dashboard por paciente.
 
 ## Objetivos específicos
 
-1. Diseñar un protocolo digital de ejercicios de evaluación para medir el rango de
-   movimiento en articulaciones frecuentemente afectadas por tratamientos oncológicos.
-2. Implementar un módulo de registro y visualización del estado inicial del paciente
-   que permita comparar mediciones a lo largo del tiempo.
-3. Definir indicadores objetivos (ángulos, tiempos, repeticiones) que faciliten la
-   detección temprana de problemas de movilidad.
-4. Validar la propuesta con profesionales de la salud para asegurar la pertinencia
-   clínica de las mediciones obtenidas.
+1. Diseñar un protocolo digital de ejercicios de movilidad asignados por el profesional y guiados en la app del paciente.
+2. Implementar en web la asignación de ejercicios y un dashboard por paciente para registrar y comparar sesiones a lo largo del tiempo.
+3. Detectar movimientos con la cámara del teléfono y definir indicadores objetivos (ángulos, tiempos, repeticiones y calidad de medición).
+4. Validar el protocolo y las mediciones con profesionales de la salud para asegurar su pertinencia clínica.
 
 ## Equipo — Iteración 1
 
 | Integrante | Rol en esta iteración |
 | --- | --- |
 | **Emilia Toro** (coordinadora) | Coordinación general del equipo, elaboración de la guía de entrevista y gestión del contacto con la contraparte, y liderazgo de la validación clínica con profesionales de la salud (objetivo específico 4). |
-| **Luis Jaramillo** | Investigación y desarrollo del protocolo digital de ejercicios de evaluación del rango de movimiento (objetivo específico 1) y definición de los indicadores objetivos de medición —ángulos, tiempos, repeticiones— (objetivo específico 3). |
-| **Cristian Sandoval** | Investigación y desarrollo del módulo de registro y visualización del estado inicial del paciente, incluyendo la lógica para comparar mediciones a lo largo del tiempo (objetivo específico 2). |
+| **Luis Jaramillo** | Investigación y desarrollo del protocolo de ejercicios guiados para la app del paciente (objetivo específico 1), detección de movimientos con la cámara e indicadores de medición (objetivo específico 3). |
+| **Cristian Sandoval** | Investigación y desarrollo de la asignación de ejercicios, el dashboard individual y la comparación de mediciones a lo largo del tiempo en web (objetivo específico 2). |
 
 ### Rotación de coordinación
 
@@ -60,6 +50,6 @@ Proyecto del curso **Comprensión del Contexto Social 2026**.
 
 ## Trabajo entre APK y web
 
-Este repositorio desarrolla la experiencia Android del paciente y la medición local. El repositorio [web](https://github.com/Luchosqi/movilidad-post-cancer-web) desarrollará la vista para profesionales y, tras acordar el stack, la API y persistencia compartida. La división, etapas, responsables iniciales y decisiones pendientes están en el [plan de trabajo compartido](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/plan-de-trabajo.md). El formato de sesión se propone en el [contrato de web](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/contrato-integracion.md).
+Este repositorio desarrolla la app del paciente: consulta los ejercicios asignados, guía su ejecución, detecta movimientos mediante la cámara del teléfono y envía las sesiones medidas. El repositorio [web](https://github.com/Luchosqi/movilidad-post-cancer-web) es para el profesional encargado: asigna ejercicios y consulta el dashboard individual, historial y evolución de cada paciente. Tras acordar el stack, web también mantendrá la API y persistencia compartida. La división, etapas, responsables iniciales y decisiones pendientes están en el [plan de trabajo compartido](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/plan-de-trabajo.md). Los formatos de asignación y sesión se proponen en el [contrato de web](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/contrato-integracion.md).
 
 Por ahora ambos repositorios documentan el alcance; todavía no hay una aplicación implementada. Los ejemplos de integración usan datos sintéticos.
