@@ -62,3 +62,9 @@ el mismo orden.
 ## Contexto
 
 Proyecto del curso **Comprensión del Contexto Social 2026**.
+
+## Trabajo entre APK y web
+
+Este repositorio desarrolla la experiencia Android del paciente y la medición local. El repositorio [web](https://github.com/Luchosqi/movilidad-post-cancer-web) desarrollará la vista para profesionales y, tras acordar el stack, la API y persistencia compartida. La división, etapas, responsables iniciales y decisiones pendientes están en el [plan de trabajo compartido](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/plan-de-trabajo.md). El formato de sesión se propone en el [contrato de web](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/contrato-integracion.md).
+
+Por ahora ambos repositorios documentan el alcance; todavía no hay una aplicación implementada. Los ejemplos de integración usan datos sintéticos.
