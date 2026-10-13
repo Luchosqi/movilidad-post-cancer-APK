@@ -57,3 +57,12 @@ Por ahora ambos repositorios documentan el alcance; todavía no hay una aplicaci
 ## Especificación y prototipo
 
 La [especificación de requerimientos compartida](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/Especificacion_de_requerimientos_Movilidad_Post_Cancer.docx) define los requisitos verificables de la app del paciente, la web del profesional y su integración. El [prompt móvil para Figma Make](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/prompts-figma-make.md#prompt-1-app-android-del-paciente) describe las pantallas M01–M06 y sus estados para el prototipo de alta fidelidad. Los ejercicios y datos de demostración requieren validación clínica antes de usarse con pacientes reales.
+
+### Entrega de prototipado final
+
+- [App del paciente navegable](https://www.figma.com/proto/oOeWnAmFDW6oCgf7jPyKGG/ContextoSocial-2026-2?node-id=16-2&starting-point-node-id=16%3A2&scaling=scale-down).
+- [Web del profesional navegable](https://www.figma.com/proto/oOeWnAmFDW6oCgf7jPyKGG/ContextoSocial-2026-2?node-id=15-2&starting-point-node-id=15%3A2&scaling=scale-down).
+- [Archivo editable con ambos flujos](https://www.figma.com/design/oOeWnAmFDW6oCgf7jPyKGG/ContextoSocial-2026-2?node-id=0-1).
+- [Documento Word de entrega](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/Entrega_Especificacion_y_Prototipado_Final_Movilidad_Post_Cancer.docx).
+
+El prototipo muestra el flujo completo con datos sintéticos; la detección por cámara y el envío aún requieren implementación. La entrevista prevista para el 16 de octubre fue cancelada. La simulación de escenarios del Word está rotulada como hipótesis y no constituye validación real.
